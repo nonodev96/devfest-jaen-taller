@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@gdgjaen/button": ["libs/src/index.ts"],
+      "@gdgjaen/menu": ["libs/menu/src/index.ts"],
+      "@gdgjaen/ponentes": ["libs/ponentes/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
